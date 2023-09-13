@@ -1,18 +1,20 @@
-body {background-color: yellowgreen; padding: 25px;}
+body {background-color: black; padding:25px}
 
-img {margin-left:0%; auto; height: 144px; padding-top: 25px;}
+h1 {color:white; font-family: arial; font-size: 30px; }
 
-h1 {color:black; font-family:arial; font-size:30px;}
+p {color:white; font-family: arial; font-size:25px;}
 
-p {color:black; font-family:arial; font-size:20px;}
+img {padding:25px; width: 155px; height: auto;}
 
+a {text-decoration: none; color:blue; font-size: 25px; font-family: arial;}
 
+        /* Center the navbar */
+        .navbar {
+            text-align: center;
+        }
 
-a {line-height:100px;color:white;text-decoration:none; font-family:arial; font-size: 25px; border-style: solid; background-color: blueviolet; border-color: aqua;}
-
-.topnav {background-color: red; text-align:center; word-spacing: 200px;}
-
-  @media only screen and (max-width: 1080px) {
-    body{background-color: cyan;}
-    img {margin-left:50%; height: 144px;}
-  }
+        /* Style for the navbar links (adjust as needed) */
+        .navbar a {
+            display: inline-block;
+            padding: 10px 20px;
+            text-decoration: none;  border-style:solid; background-color:aqua}
