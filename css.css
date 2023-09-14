@@ -20,8 +20,30 @@ a {text-decoration: none; color:white; font-size: 25px; font-family: arial;}
             text-decoration: none;  border-style:solid; background-color:red; border-color:gold;}
 
 
+img {
+                -webkit-user-drag: none;
+                -khtml-user-drag: none;
+                -moz-user-drag: none;
+                -o-user-drag: none;
+                user-drag: none;
+                }
 
-
+.navbar {
+                    -webkit-user-drag: none;
+                    -khtml-user-drag: none;
+                    -moz-user-drag: none;
+                    -o-user-drag: none;
+                    user-drag: none;
+                    }
+    
+.navbar a {
+                        -webkit-user-drag: none;
+                        -khtml-user-drag: none;
+                        -moz-user-drag: none;
+                        -o-user-drag: none;
+                        user-drag: none;
+                        }
+        
 
 
 
@@ -45,3 +67,4 @@ body {
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none; /* Standard syntax */
   }
+
