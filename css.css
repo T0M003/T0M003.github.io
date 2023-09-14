@@ -29,9 +29,10 @@ a {text-decoration: none; color:blue; font-size: 25px; font-family: arial;}
 
 @media only screen and (max-width: 1080px) {
                
-    body {background-color: ;}
     .navbar {
-       text-align: center;
+       text-align: center;;
    }
-    .navbar a {display:flex; padding: 10px 20px;}
+    .navbar a {display:flex; padding: 10px 20px; font-size: 50px;}
                  }
+    h1 {font-size: 50px;}
+    p {font-size: 45px;}
