@@ -1,4 +1,4 @@
-body {background-color: black; padding:25px}
+body {background-color:darkorchid; padding:25px}
 
 h1 {color:white; font-family: arial; font-size: 30px; padding-left: 25px;}
 
@@ -6,7 +6,7 @@ p {color:white; font-family: arial; font-size:25px; padding-left: 25px;}
 
 img {padding:25px; width: 155px; height: auto;}
 
-a {text-decoration: none; color:blue; font-size: 25px; font-family: arial;}
+a {text-decoration: none; color:white; font-size: 25px; font-family: arial;}
 
         /* Center the navbar */
 .navbar {
@@ -17,7 +17,7 @@ a {text-decoration: none; color:blue; font-size: 25px; font-family: arial;}
 .navbar a {
             display: inline-block;
             padding: 10px 20px;
-            text-decoration: none;  border-style:solid; background-color:aqua}
+            text-decoration: none;  border-style:solid; background-color:red; border-color:gold;}
 
 
 
@@ -39,3 +39,9 @@ a {text-decoration: none; color:blue; font-size: 25px; font-family: arial;}
     img {width: 360px; height: auto;}
 
 }
+
+body {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  }
