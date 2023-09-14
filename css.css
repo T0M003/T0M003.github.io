@@ -17,7 +17,7 @@ a {text-decoration: none; color:white; font-size: 25px; font-family: arial;}
 .navbar a {
             display: inline-block;
             padding: 10px 20px;
-            text-decoration: none;  border-style:solid; background-color:red; border-color:gold;}
+            text-decoration: none;  border-style:solid; background-color:red; border-color:gold; border-width: 5px;}
 
 
 img {
@@ -54,7 +54,7 @@ img {
     .navbar {
        text-align: center;;
    }
-    .navbar a {display:flex; padding: 10px 20px; font-size: 100px;}
+    .navbar a {display:flex; padding: 10px 20px; font-size: 100px; border-width: 10px;}
                  
     h1 {font-size: 95px;}
     p {font-size: 95px;}
